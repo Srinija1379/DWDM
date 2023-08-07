@@ -1,0 +1,12 @@
+v<-c(100,70,60,90,90)
+mm<-(v-min(v))/(max(v)-min(v))
+mm
+zs<-(v-mean(v))/sd(v)
+zs
+am<-mean(abs(v-mean(v)))
+s<-(v-mean(v))/am
+s
+ds<-max(floor(log10(v)))+1
+ds
+r<-v/10^ds
+r
